@@ -1,0 +1,34 @@
+body {
+    width: 960px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    padding: 3rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+/* :nth child selectors - select elements based on their position as a child in any parent container */
+section:first-child{
+    background-color: crimson;
+}
+section:nth-child(2) {
+    background-color: chocolate;
+}
+section:nth-child(3) {
+    background-color: cornflowerblue;
+
+}
+section:nth-child(4) {
+    background-color: cyan;
+}
+section:nth-child(5) {
+    background-color: darkgoldenrod;
+}
+section:last-child {
+    background-color: darkmagenta;
+}
